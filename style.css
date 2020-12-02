@@ -1,7 +1,21 @@
-/* .title{
-    padding: ;
-} */
+html {
+    font-size: 1rem;
+}
 
-.title{
-    font-size: 5vw;
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
 }
